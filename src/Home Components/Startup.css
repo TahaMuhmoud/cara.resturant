@@ -1,0 +1,40 @@
+.Startup-page{
+  height: calc(100vh - 60px);
+  background-image: url(/public/hero4.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 150px;
+  position: relative;
+}
+.Startup-page h1{
+  font-size: 60px;
+}
+.Startup-page p.small-txt{
+  color: #bdbdbd;
+}
+.Startup-page button{
+  background-color: transparent;
+  background-image: url(/public/button.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px 50px;
+}
+.Startup-page button:hover {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+@media (max-width: 767px) {
+  .Startup-page{
+    background-position: 90%;
+  }
+}
+@media (max-width: 480px) {
+  .Startup-page{
+    padding: 50px;
+  }
+  .Startup-page h1{
+    font-size: 33px ;
+  }
+}

@@ -1,0 +1,31 @@
+
+.ProductDetails *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+  text-transform: capitalize;
+}
+.ProductDetails .img{
+  width: 500px;
+}
+.ProductDetails .img .row-2{
+  height: 100px;
+}
+.ProductDetails .img .row-2 img{
+  object-fit: cover;
+}
+.ProductDetails .img img{
+  cursor: pointer;
+}
+.ProductDetails .colors span{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.ProductDetails .colors span.active{
+  border: 5px solid rgba(255, 255, 255, 0.452);
+}
+.ProductDetails button{
+  width: -moz-fit-content;
+  width: fit-content;
+}

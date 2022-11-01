@@ -1,0 +1,23 @@
+.features{
+  grid-template-columns: repeat(6, auto);
+}
+.feature *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+@media (min-width: 767px) and (max-width: 991px) {
+  .features{
+    grid-template-columns: repeat(4, auto);
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .features{
+    grid-template-columns: repeat(3, auto);
+  }
+}
+@media (max-width: 480px) {
+  .features{
+    grid-template-columns: repeat(1, auto);
+  }
+}

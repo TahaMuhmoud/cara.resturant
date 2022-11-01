@@ -1,0 +1,10 @@
+
+.HomeBanner *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+  text-transform: capitalize;
+}
+.HomeBanner{
+  background-image: url(/public/banner/b2.jpg);
+}

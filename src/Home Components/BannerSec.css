@@ -1,0 +1,24 @@
+
+.BannerSec *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+  text-transform: capitalize;
+}
+.BannerSec img{
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+.BannerSec .col {
+  height: 300px;
+}
+.BannerSec .text{
+  height: 100%;
+  width: 100%;
+}
+.BannerSec .text button{
+  width: -moz-fit-content;
+  width: fit-content;
+}

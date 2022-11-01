@@ -1,0 +1,11 @@
+
+.StartUp *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+  text-transform: capitalize;
+}
+.StartUp{
+  height: 50vh;
+  background-image: url(/public/banner/b1.jpg);
+}
